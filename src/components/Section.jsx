@@ -1,4 +1,16 @@
 import React from "react";
+import HeroImg from '../assets/Hero.png'; 
+import Sec_Img_1 from '../assets/sec_1_img1.png'; 
+import Sec_Img_2 from '../assets/sec_1_img2.png'; 
+import Sec_Img_3 from '../assets/sec_1_img3.png'; 
+import Sec_Img_4 from '../assets/sec_1_img4.png'; 
+import Sec_Img_5 from '../assets/sec_1_img5.png'; 
+import Sec_Img_6 from '../assets/sec_1_img6.png'; 
+import Sec_Img_7 from '../assets/sec_1_img7.png'; 
+import Sec_Img_8 from '../assets/sec_1_img8.png'; 
+
+
+
 
 function Section() {
   const section1 = [
@@ -8,7 +20,7 @@ function Section() {
       detail_2: "Major. In any field.",
       button1: "Learn more",
       button2: "none",
-      img_src: "./images/sec_1_img1.png",
+      img_src: Sec_Img_1,
       who_built: "none",
     },
     {
@@ -17,7 +29,7 @@ function Section() {
       detail_2: "Sky-high performance with M4.",
       button1: "Learn more",
       button2: "Buy",
-      img_src: "./images/sec_1_img2.png",
+      img_src: Sec_Img_2,
       who_built: "Built for Apple Intelligence",
     },
     {
@@ -25,7 +37,7 @@ function Section() {
       detail_1: "Personalise your iPhone with",
       detail_2: "10 new indian languages.",
       button1: "Learn more",
-      img_src: "./images/sec_1_img3.png",
+      img_src: Sec_Img_3,
       button2: "none",
 
       who_built: "none",
@@ -36,7 +48,7 @@ function Section() {
       detail_2: "Now supercharged by the M3 chip",
       button1: "Learn more",
       button2: "Buy",
-      img_src: "./images/sec_1_img4.png",
+      img_src: Sec_Img_4,
       who_built: "Built for Apple Intelligence",
     },
 
@@ -46,7 +58,7 @@ function Section() {
       // detail_2: "10 new indian languages.",
       button1: "Learn more",
       button2: "Buy",
-      img_src: "./images/sec_1_img5.png",
+      img_src: Sec_Img_5,
       who_built: "Built for Apple Inteligence",
     },
     {
@@ -55,7 +67,7 @@ function Section() {
       // detail_2: "Now supercharged by the M3 chip",
       button1: "Learn more",
       button2: "Shop iPhone",
-      img_src: "./images/sec_1_img6.png",
+      img_src: Sec_Img_6,
       // who_built: "Built for Apple Intelligence",
     },
     {
@@ -63,7 +75,7 @@ function Section() {
       detail_1: "Upgrade and save. It's easy",
       // detail_2: "Available with Active Noise Cancellation",
       button1: "Get your estimate",
-      img_src: "./images/sec_1_img7.png",
+      img_src: Sec_Img_7,
 
       button2: "none",
       // img_src: "./images/sec_1_img5.png",
@@ -75,7 +87,7 @@ function Section() {
       // detail_2: "Meaningful insights. Backed by science",
       button1: "Learn more",
       button2: "none",
-      img_src: "./images/sec_1_img8.png",
+      img_src: Sec_Img_8,
       who_built: "none",
     },
   ];
@@ -164,6 +176,7 @@ function Section() {
 
   return (
     <>
+    
       {/* First two elements - full width sections */}
       {section1.slice(0, 2).map((link, index) => renderFullSection(link, index))}
 
