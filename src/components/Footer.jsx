@@ -31,7 +31,7 @@ function Footer() {
                 <p className="my-3">A subscription is required for Apple TV+.</p>
                 <p>Features are subject to change. Some features, applications and services may not be available in all regions or all languages.</p>
                 <hr class="border-gray-300 mt-5" />
-                <div className="grid grid-cols-5 mt-5">
+                <div className=" grid md:grid-cols-5 grid-cols-3 mt-5 gap-5" >
                     <div>
                         <ul className=" gap-3 flex flex-col">
                             <h2 className="font-bold">Shop and Learn</h2>
@@ -97,7 +97,7 @@ function Footer() {
                         </ul>
                     </div>
                     <div>
-                        <ul className="flex flex-col gap-3">
+                        <ul className="flex flex-col gap-3 flex-wrap">
                             <h2 className="font-bold">Apple Values</h2>
                             <li>Accessibility</li>
                             <li>Education</li>
@@ -110,8 +110,6 @@ function Footer() {
                             <li>Career Opportunities</li>
                             <li>Investors</li>
                             <li>Ethics & Compliance</li>
-                            <li>Events</li>
-                            <li className="hover:underline">Contact Apple</li>
 
                         </ul>
                     </div>
