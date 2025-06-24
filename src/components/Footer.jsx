@@ -30,7 +30,7 @@ function Footer() {
                     Some features may not be available in all regions or languages.</p>
                 <p className="my-3">A subscription is required for Apple TV+.</p>
                 <p>Features are subject to change. Some features, applications and services may not be available in all regions or all languages.</p>
-                <hr class="border-gray-300 mt-5" />
+                <hr className="border-gray-300 mt-5" />
                 <div className=" grid md:grid-cols-5 grid-cols-3 mt-5 gap-5" >
                     <div>
                         <ul className=" gap-3 flex flex-col">
@@ -116,11 +116,11 @@ function Footer() {
                 </div>
                 <div className="">
                     <p className=" text-xs text-gray-500 mt-4">More ways to shop: <a className="text-blue-500 underline" href="#">Find an Apple Store</a> or <a className="text-blue-500 underline" href="#">other retailer</a> near you. Or call <a className="text-blue-500 underline" href="#">000800 040 1966</a>.</p>
-                    <hr class="border-gray-300 my-5" />
+                    <hr className="border-gray-300 my-5" />
 
                     <div className="flex justify-between text-gray-500 text-xs  mb-3 items-center">
                         <div>
-                            <p className="flex items-center">Copyright © 2025 Apple Inc. All rights reserved. <p className="ml-10">Privacy Policy | Terms of Use | Sales Policy  | Legal Site Map</p> </p>
+                            <p className="flex items-center">Copyright © 2025 Apple Inc. All rights reserved. <span className="ml-10">Privacy Policy | Terms of Use | Sales Policy  | Legal Site Map</span> </p>
                         </div>
                         <div className="">
                             <p className="">india</p>
