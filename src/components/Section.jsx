@@ -120,10 +120,13 @@ function Section() {
               {link.button2}
             </button>
           )}
-          {link.who_built !== "none" && (
-            <p className="absolute bottom-10 text-2xl bg-gradient-to-r from-blue-500 via-purple-500 to-orange-500 bg-clip-text text-transparent">{link.who_built}</p>
-          )}
+         
         </div>
+         <div className="absolute h-full w-full flex flex-col text-center items-center py-8">
+          {link.who_built !== "none" && (
+            <p className="absolute mb-8 bottom-10 text-2xl bg-gradient-to-r from-blue-500 via-purple-500 to-orange-500 bg-clip-text text-transparent">{link.who_built}</p>
+          )}
+          </div>
       </div>
     </section>
   );
