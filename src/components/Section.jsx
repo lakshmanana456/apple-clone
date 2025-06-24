@@ -112,6 +112,11 @@ function Section() {
         <p className="text-2xl mt-3">{link.detail_1}</p>
         <p className="text-2xl">{link.detail_2}</p>
         <div className="space-x-3">
+          <div>
+             {link.who_built !== "none" && (
+            <p className="absolute bottom-10 text-2xl bg-gradient-to-r from-blue-500 via-purple-500 to-orange-500 bg-clip-text text-transparent">{link.who_built}</p>
+          )}
+          </div>
           <button className="mt-3 text-md border border-blue-500 rounded-full px-5 py-2 bg-blue-600 text-white hover:bg-blue-500">
             {link.button1}
           </button>
@@ -122,11 +127,6 @@ function Section() {
           )}
          
         </div>
-         <div className="absolute h-full w-full flex flex-col text-center items-center py-8">
-          {link.who_built !== "none" && (
-            <p className="absolute mb-8 bottom-10 text-2xl bg-gradient-to-r from-blue-500 via-purple-500 to-orange-500 bg-clip-text text-transparent">{link.who_built}</p>
-          )}
-          </div>
       </div>
     </section>
   );
